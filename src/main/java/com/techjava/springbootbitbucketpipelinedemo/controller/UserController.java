@@ -25,7 +25,7 @@ public class UserController {
     }
 
     @GetMapping("/getUserbyName/{username}")
-    @ApiOperation(value = "getUserbyName", httpMethod = "GET")
+    @ApiOperation(value = "getUserbyName Details", httpMethod = "GET")
     public User getUserbyName(@PathVariable String username){
         return new User(username, 10000L);
     }
