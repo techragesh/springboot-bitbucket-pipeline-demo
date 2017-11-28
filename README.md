@@ -6,7 +6,6 @@ This is the demo project of Springboot Rest API using Swagger and showed how to 
 
 # Swagger #
 * Swagger Service URL : http://localhost:8085/swagger-ui.html
-* The below dependencies are added to implement Swagger in Springboot
 * Implementated Swagger in SpringBoot Rest Controller
 * Swagger provides several features to implement the REST API.
     * Documentation like REST API
